@@ -19,8 +19,10 @@ li {
 }
 
 h1 {
-    text-wrap: wrap;
-    width: 90%;
+    // text-wrap: wrap;
+    width: 80%;
+    font-size: 55px;
+
 }
 
 .intro-text {
@@ -37,10 +39,24 @@ h1 {
 
 .img-beanie {
     // display: block; 
-    height: 400px;
-    width: auto;
+    height: auto;
+    width: 300px;
     margin-left: auto;
     margin-right: auto;
 
 }
 
+.para-beanie {
+    width: 90%;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.img-icon {
+    height: 120px;
+    width: 120px;
+}
