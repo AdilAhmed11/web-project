@@ -22,7 +22,6 @@ h1 {
     // text-wrap: wrap;
     width: 80%;
     font-size: 55px;
-
 }
 
 .intro-text {
@@ -43,20 +42,44 @@ h1 {
     width: 300px;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .para-beanie {
     width: 90%;
 }
 
+.tech-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 366px;
+    height: 710px;
+}
+
 .container {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    display: inline-grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: 110px 110px 110px;
+    grid-template-rows: 110px 110px 110px;
+    // grid-template-columns: auto auto auto;
+    // grid-template-rows: auto auto auto;
+    text-align: center;
 }
 
 .img-icon {
-    height: 120px;
-    width: 120px;
+    height: 72px;
+    width: 72px;
+}
+
+.footer {
+    background-color: black;
+    
+}
+
+.client-project {
+    border: 2px black solid;
+    width: 373px;
+    height: 580px;
+    margin-bottom: 75px;
 }
