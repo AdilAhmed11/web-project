@@ -7,7 +7,7 @@
     <title>Portfolio</title>
 </head>
 <body>
-    <header>
+    <header class="desktop-mode">
         <div class="header">
             <p>Adil Ahmed</p>
             <nav>
@@ -15,7 +15,7 @@
                     <li>Home</li>
                     <li>About</li>
                     <li>Projects</li>
-                    <li>Get in Touch</li>
+                    <li class="list-item">Get in Touch</li>
                 </ul>
             </nav>
         </div>
@@ -26,15 +26,15 @@
             <h1>A Junior Software Developer based in the UK.</h1>
         </div>
         <div>
-            <img> 
-            <!--Remember to add that image-->
+            <img class="desktop-mode img-coder" src="Image1.png" alt="guy coding">
         </div>
 
     </section>
     <section class="about-me">
-        <h3>About Me</h3>
+        <h3 class="mobile-mode">About Me</h3>
         <img class="img-adil" src="Photo.jpeg" alt="Adil Ahmed">
         <div class="para-adil">
+            <h3 class="desktop-mode">About Me</h3>
             <p>I am a passionate and driven junior software developer that is currently learning HTML, CSS, JavaScript, and Java. I recently began my journey in the tech industry, and I am eager to build impactful solutions that solve real-world
             problems.</p>
             <p>I want to grow as a developer by seeking opportunities to contribute to innovative projects. Whether it’s collaborating with a team or exploring new technologies, I am dedicated to delivering high-quality work and
@@ -87,18 +87,48 @@
     </section>
     <section class="my-projects">
         <h3>My Projects</h3>
-        <div class="client-project"></div>
-        <div class="client-project"></div>
-        <div class="client-project"></div>
-        <div></div>
-    </section>
-    <footer class="footer">
-        <div>
-            <img class="footer-icon" src="./Icons/github-svgrepo-com.svg" alt="GitHub icon">
+        <div class="projects">
+            <div class="client-project">
+                <img src="/Icons/Image.svg" alt="Project image"></img>
+                <p>REACT</p>
+                <h3>Client Project</h3>
+                <p>Description of the client project in a sentence.</p>
+                <button>Code &#60; / ></button>
+                <button>Preview &#60; / > </button>
+            </div>
+            <div class="client-project">
+                <img src="/Icons/Image.svg" alt="Project image"></img>
+                <p>REACT</p>
+                <h3>Client Project</h3>
+                <p>Description of the client project in a sentence.</p>
+                <button>Code &#60; / ></button>
+                <button>Preview &#60; / > </button>
+            </div>
+            <div class="client-project">
+                <img src="/Icons/Image.svg" alt="Project image"></img>
+                <p>REACT</p>
+                <h3>Client Project</h3>
+                <p>Description of the client project in a sentence.</p>
+                <button>Code &#60; / ></button>
+                <button>Preview &#60; / > </button>
+            </div>
+            <div class="desktop-mode">
+                <img src="/Icons/Image.svg" alt="Project image"></img>
+                <p>REACT</p>
+                <h3>Client Project</h3>
+                <p>Description of the client project in a sentence.</p>
+                <button>Code &#60; / ></button>
+                <button>Preview &#60; / > </button>
+            </div>
         </div>
-        <div></div>
-        <div></div>
-        <p>adilahmed749@gmail.com</p>
+    </section>
+    <footer>
+        <div class="footer-container">
+                <img class="footer-icon" src="./Icons/github-svgrepo-com.svg" alt="GitHub icon">
+                <img class="footer-icon" src="./Icons/linkedin-svgrepo-com.svg" alt="LinkedIn icon">
+                <img class="footer-icon" src="./Icons/cv-file-interface-symbol.svg" alt="CV icon">
+        </div>
+        <p class="email-text">adilahmed749@gmail.com</p>
     </footer>
 </body>
 </html>
