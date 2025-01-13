@@ -36,7 +36,7 @@ h1 {
     align-items: center;
 }
 
-.img-beanie {
+.img-adil {
     // display: block; 
     height: auto;
     width: 300px;
@@ -44,7 +44,7 @@ h1 {
     margin-right: auto;
 }
 
-.para-beanie {
+.para-adil {
     width: 90%;
 }
 
@@ -54,6 +54,12 @@ h1 {
     align-items: center;
     width: 366px;
     height: 710px;
+    // text-align: left;
+}
+
+.tech-skills > p {
+    text-align: left;
+    width: 350px;
 }
 
 .container {
@@ -82,4 +88,17 @@ h1 {
     width: 373px;
     height: 580px;
     margin-bottom: 75px;
+}
+
+.footer {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.footer-icon {
+    height: 50px;
+    width: auto;
+    z-index: 0;
 }
