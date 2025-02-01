@@ -1,134 +1,162 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Portfolio</title>
+    <title>Adil Ahmed's Portfolio</title>
 </head>
+
 <body>
-    <header class="desktop-mode">
-        <div class="header">
-            <p>Adil Ahmed</p>
-            <nav>
-                <ul>
-                    <li>Home</li>
-                    <li>About</li>
-                    <li>Projects</li>
-                    <li class="list-item">Get in Touch</li>
-                </ul>
-            </nav>
+    <header class="desktop-mode"> <!-- Use media enquiry to hide this in mobile mode -->
+        <h5 class="desktop-nav__heading">Adil Ahmed</h5>
+        <div class="desktop-nav__items"> <!-- Div to store list of items in nav -->
+            <ul class="desktop-nav__items-list"> <!-- Unordered list to store list items -->
+                <li class="desktop-nav__items-list__item">
+                    <a href="#home" class="desktop-nav__items-list__link">Home</a>
+                </li>
+                <li class="desktop-nav__items-list__item">
+                    <a href="#about" class="desktop-nav__items-list__link">About</a>
+                </li>
+                <li class="desktop-nav__items-list__item">
+                    <a href="#projects" class="desktop-nav__items-list__link">Projects</a>
+                </li>
+            </ul>
+            <a href="#contact" class="desktop-nav__contact-button">Get in Touch</a>
         </div>
     </header>
+
     <section class="intro">
-        <div class="intro-text">
-            <p>👋 Hey! I’m Adil Ahmed</p>
-            <h1>A Junior Software Developer based in the UK.</h1>
+        <div class="intro__text">
+            <p class="intro__greeting">👋 Hey! I’m Adil Ahmed</p>
+            <h1 class="intro__summary">A Junior Software Developer based in the UK.</h1>
         </div>
-        <div>
-            <img class="desktop-mode img-coder" src="Image1.png" alt="guy coding">
-        </div>
-
     </section>
-    <section class="about-me">
-        <h3 class="mobile-mode">About Me</h3>
-        <img class="img-adil" src="Photo.jpeg" alt="Adil Ahmed">
-        <div class="para-adil">
-            <h3 class="desktop-mode">About Me</h3>
-            <p>I am a passionate and driven junior software developer that is currently learning HTML, CSS, JavaScript, and Java. I recently began my journey in the tech industry, and I am eager to build impactful solutions that solve real-world
-            problems.</p>
-            <p>I want to grow as a developer by seeking opportunities to contribute to innovative projects. Whether it’s collaborating with a team or exploring new technologies, I am dedicated to delivering high-quality work and
-            making a meaningful impact in the tech space. </p>
-        </div>
 
+    <section class="about-me" id="aboutMe">
+        <div class="about-me__container">
+            <div class="about-me__image"> <!-- Image in a div to better manipulate it -->
+                <img src="/assets/photos/adil-ahmed-photo.jpeg" alt="Professional photo of Adil Ahmed" />
+            </div>
+            <div class="about-me__text">
+                <h3 class="about-me__text__title">About Me</h3>
+                <p class="about-me__text__para">I am a passionate and driven junior software developer that is currently
+                    learning HTML, CSS, JavaScript, and Java. I
+                    recently began my journey in the tech industry, and I am eager to build impactful solutions that
+                    solve real-world
+                    problems.</p>
+                <p class="about-me__text__para">I want to grow as a developer by seeking opportunities to contribute to
+                    innovative projects. Whether it’s
+                    collaborating with a team or exploring new technologies, I am dedicated to delivering high-quality
+                    work and
+                    making a meaningful impact in the tech space.</p>
+            </div>
+        </div>
     </section>
+
     <section class="tech-skills">
-        <h3>Technical Skills</h3>
-        <p>I'm building a strong foundation in Java, JavaScript, HTML, CSS, and SCSS. Additionally, I am proficient in version control using Git, ensuring efficient collaboration.</p>
-        <div class="container">
-            <div id="spring-icon">
-                <img class="img-icon" src="./icons/spring-boot-svgrepo-com.svg" alt="Spring Boot Vector">
-                <p>Spring Boot</p>
+        <h3 class="tech-skills__heading">Technical Skills</h3>
+        <p class="tech-skills__para">I have developed a versatile skill set that combines core programming languages,
+            modern frameworks, and
+            essential development tools. My technical toolbox includes expertise in both frontend and backend
+            technologies.</p>
+        <div class="tech-skills__container">
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/spring-boot-svgrepo-com.svg"
+                    alt="Spring Boot Vector">
+                <p class="tech-skills__container__div__para">Spring Boot</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/java-svgrepo-com.svg" alt="Java Vector">
-                <p>Java</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/java-svgrepo-com.svg"
+                    alt="Java Vector">
+                <p class="tech-skills__container__div__para">Java</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/react-svgrepo-com.svg" alt="React Vector">
-                <p>React</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/react-svgrepo-com.svg"
+                    alt="React Vector">
+                <p class="tech-skills__container__div__para">React</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/bem-svgrepo-com.svg" alt="BEM Vector">
-                <p>BEM</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/bem-svgrepo-com.svg"
+                    alt="BEM Vector">
+                <p class="tech-skills__container__div__para">BEM</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/sass-svgrepo-com.svg" alt="Sass Vector">
-                <p>SCSS</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/sass-svgrepo-com.svg"
+                    alt="SCSS Vector">
+                <p class="tech-skills__container__div__para">SCSS</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/javascript-155-svgrepo-com.svg" alt="JavaScript Vector">
-                <p>JavaScript</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/javascript-155-svgrepo-com.svg"
+                    alt="JavaScript Vector">
+                <p class="tech-skills__container__div__para">JavaScript</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/css3-02-svgrepo-com.svg" alt="CSS3 Vector">
-                <p>CSS3</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/css3-02-svgrepo-com.svg"
+                    alt="CSS3 Vector">
+                <p class="tech-skills__container__div__para">CSS3</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/html-124-svgrepo-com.svg" alt="HTML5 Vector">
-                <p>HTML5</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/html-124-svgrepo-com.svg"
+                    alt="HTML5 Vector">
+                <p class="tech-skills__container__div__para">HTML5</p>
             </div>
-            <div>
-                <img class="img-icon" src="./icons/git-svgrepo-com.svg" alt="Git Vector">
-                <p>Git</p>
+            <div class="tech-skills__container__div">
+                <img class="tech-skills__container__div__icon" src="/assets/skill-icons/git-svgrepo-com.svg"
+                    alt="Git Vector">
+                <p class="tech-skills__container__div__para">Git</p>
             </div>
+        </div>
+    </section>
 
-        </div>
-    </section>
     <section class="my-projects">
-        <h3>My Projects</h3>
+        <h3 class="my-projects__heading">My Projects</h3>
         <div class="projects">
-            <div class="client-project">
-                <img src="/Icons/Image.svg" alt="Project image"></img>
-                <p>REACT</p>
-                <h3>Client Project</h3>
+            <div class="project">
+                <img src="" alt="" />
+                <h4>REACT</h4>
+                <h2>Client Project</h2>
                 <p>Description of the client project in a sentence.</p>
-                <button>Code &#60; / ></button>
+                <button>Code &#60; /</button>
                 <button>Preview &#60; / > </button>
             </div>
-            <div class="client-project">
-                <img src="/Icons/Image.svg" alt="Project image"></img>
-                <p>REACT</p>
-                <h3>Client Project</h3>
+            <div class="project">
+                <img src="" alt="" />
+                <h4>REACT</h4>
+                <h2>Client Project</h2>
                 <p>Description of the client project in a sentence.</p>
-                <button>Code &#60; / ></button>
+                <button>Code &#60; /</button>
                 <button>Preview &#60; / > </button>
             </div>
-            <div class="client-project">
-                <img src="/Icons/Image.svg" alt="Project image"></img>
-                <p>REACT</p>
-                <h3>Client Project</h3>
+            <div class="project">
+                <img src="" alt="" />
+                <h4>REACT</h4>
+                <h2>Client Project</h2>
                 <p>Description of the client project in a sentence.</p>
-                <button>Code &#60; / ></button>
+                <button>Code &#60; /</button>
                 <button>Preview &#60; / > </button>
             </div>
-            <div class="desktop-mode">
-                <img src="/Icons/Image.svg" alt="Project image"></img>
-                <p>REACT</p>
-                <h3>Client Project</h3>
+            <div class="project">
+                <img src="" alt="" />
+                <h4>REACT</h4>
+                <h2>Client Project</h2>
                 <p>Description of the client project in a sentence.</p>
-                <button>Code &#60; / ></button>
+                <button>Code &#60; /</button>
                 <button>Preview &#60; / > </button>
             </div>
         </div>
     </section>
+
     <footer>
         <div class="footer-container">
-                <img class="footer-icon" src="./Icons/github-svgrepo-com.svg" alt="GitHub icon">
-                <img class="footer-icon" src="./Icons/linkedin-svgrepo-com.svg" alt="LinkedIn icon">
-                <img class="footer-icon" src="./Icons/cv-file-interface-symbol.svg" alt="CV icon">
+            <img class="footer-icon" src="/assets/skill-icons/github-svgrepo-com.svg" alt="GitHub icon">
+            <img class="footer-icon" src="assets/skill-icons/linkedin-svgrepo-com.svg" alt="LinkedIn icon">
+            <img class="footer-icon" src="assets/skill-icons/cv-file-interface-symbol.svg" alt="CV icon">
         </div>
         <p class="email-text">adilahmed749@gmail.com</p>
     </footer>
+
 </body>
+
 </html>

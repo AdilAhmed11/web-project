@@ -27,6 +27,8 @@ As I grow as a developer and gain more experience, I'd like to make the followin
 
 -   🤖 Make the page interactive using **JavaScript** and **TypeScript**.
 -   🎨 Improve the **design** and **functionality** of the website.
--   ✅ Add to the list of my individual projects, that I do with **\_nology** and personal ones.
+-   ✅ Add to the list of projects, which include **\_nology** and _Personal_ projects.
+
+---
 
 Thank you for visiting! 😀
