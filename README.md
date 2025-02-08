@@ -1,6 +1,6 @@
 # 🌐 Web Project
 
-## Introduction
+## 👋 Introduction
 
 Welcome to my **very first project!** 🎉🎉🎉
 
@@ -15,11 +15,29 @@ This is a portfolio page, hosted on **GitHub Pages**, introducing myself and hig
 This portfolio page is built using:
 
 -   **HTML**
--   **CSS & SCSS**
+-   **SCSS**
 
 SCSS (Sassy CSS) extends CSS with powerful features, making it easier to write, maintain, and scale styles. SCSS also lets you nest selectors, making styles more readable and organised.
 
 I have also followed **BEM (Block Element Modifier)** methodology in this project.
+
+This project was managed using Git version control and collaborate on web development.
+
+## 🔍 Features
+
+Sections:
+
+-   Intro
+-   About Me: Overview of my experience thus far
+-   Technical Skills: Languages and skills
+-   Projects: Preview and links to my projects
+-   Contact: Email and social media links
+
+The page is:
+
+-   Responsive design, optimised for mobile and desktop experiences
+-   User-friendly UX
+-   Interactive with hover effects and connectivity
 
 ## 🔮 Future
 
