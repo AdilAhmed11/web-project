@@ -337,7 +337,7 @@ footer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-top: 20px 3rem;
+    padding: 20px 3rem;
 
     @media (min-width: 768px) {
         flex-direction: row;
@@ -347,7 +347,32 @@ footer {
         padding: 20px 4rem;
     }
 
-    p {
+    .footer-container {
+        display: flex;
+        gap: 25px;
+        padding-top: 20px;
+
+        .footer-icon {
+            height: 40px; // Increased size
+            width: 40px; // Increased size
+            background-color: white;
+            border-radius: 50%;
+            padding: 10px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+
+            &:hover {
+                background-color: lightblue;
+                transform: scale(1.1);
+            }
+        }
+
+        @media (min-width: 768px) {
+            justify-content: flex-end;
+            order: 2;
+        }
+    }
+
+    .email-text {
         color: white;
         text-align: center;
         font-size: 1rem;
@@ -356,27 +381,7 @@ footer {
         @media (min-width: 768px) {
             text-align: left;
             font-size: 1.5rem;
-            order: 1; 
-        }
-    }
-
-    div {
-        display: flex;
-        gap: 15px;
-        padding-top: 20px;
-
-        img {
-            height: 25px;
-            width: auto;
-            background-color: white;
-            border-radius: 50%;
-            padding: 8px;
-        }
-
-        @media (min-width: 768px) {
-            justify-content: flex-end;
-            order: 2;
-    
+            order: 1;
         }
     }
 }
